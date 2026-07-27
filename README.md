@@ -1,13 +1,23 @@
+# AI Robotics Platform
 
-Welcome to my AI and Robotics learning journey.
+An AI robotics project developed from scratch.
 
-## Goals
+## Overview
 
-- Learn Git & GitHub
-- Learn C/C++
-- Learn STM32
-- Learn Embedded Systems
-- Learn Robotics
-- Learn Computer Vision
-- Learn ROS2
-- Build my own robot
+This repository contains the development of an AI-powered mobile robot.
+
+## Repository Structure
+
+docs/          Documentation
+
+firmware/      Embedded software
+
+hardware/      Hardware
+
+software/      AI & PC software
+
+experiments/   Experiments
+
+## License
+
+MIT License
