@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="xCxq0hNwOD1q4cnUBjb1">
-    <mxGraphModel dx="1720" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1605" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,7 @@
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000099);" value="ESP32 DevKit" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-22" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-23" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-8">
+        <mxCell id="KrrkY_pHV4oNzCHt7EFG-2" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000099);" value="STM32 NUCLEO-F446RE" vertex="1">
@@ -26,13 +23,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="Motor Driver&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2 × TB6612FNG)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="160" y="720" as="geometry" />
-        </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#009900);" value="IMU Module&lt;div&gt;(ICM-20948)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="720" as="geometry" />
+          <mxGeometry height="60" width="120" x="340" y="740" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="&amp;nbsp;TT Encoder Motors" vertex="1">
-          <mxGeometry height="60" width="120" x="160" y="840" as="geometry" />
+          <mxGeometry height="60" width="120" x="340" y="840" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-19" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-2">
           <mxGeometry relative="1" as="geometry">
@@ -58,25 +52,19 @@
           <mxGeometry height="60" width="120" x="1360" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000099);" value="STM32 NUCLEO-F446RE" vertex="1">
-          <mxGeometry height="60" width="120" x="880" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-38" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-33">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="60" width="120" x="910" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-39" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-40" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-34">
+        <mxCell id="KrrkY_pHV4oNzCHt7EFG-3" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#990000);" value="&lt;div&gt;Power Supply Module&amp;nbsp;&lt;/div&gt;( LM2596 Buck Converter)" vertex="1">
           <mxGeometry height="60" width="120" x="1040" y="240" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#000099);" value="ESP32 DevKit" vertex="1">
-          <mxGeometry height="60" width="120" x="1040" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#009900);" value="IMU Module&lt;div&gt;(ICM-20948)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1200" y="360" as="geometry" />
+          <mxGeometry height="60" width="120" x="1160" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-41" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-30">
           <mxGeometry relative="1" as="geometry" />

@@ -21,7 +21,7 @@ The robot shall be able to move forward, backward, turn left, turn right, and st
 The robot shall be able to receive external movement commands.
 
 ### FR-4
-The robot shall be capable of measuring its own motion and orientation.
+The robot shall be capable of estimating its own motion and orientation.
 
 ---
 
