@@ -26,6 +26,15 @@ This document defines the STM32 peripheral allocation for Robot V1 and the corre
 
 ---
 
+## Motor Driver SLEEP GPIO
+
+| Function | Peripheral | STM32 Pin | NUCLEO-F446RE Board |
+|----------|------------|-----------|---------------------|
+| Motor Driver SLEEP| SLEEP | PB8 | Arduino **D15** |
+
+
+---
+
 ## Encoders
 
 | Encoder | Peripheral | STM32 Pin | NUCLEO-F446RE Board |
@@ -91,3 +100,4 @@ This document defines the STM32 peripheral allocation for Robot V1 and the corre
 | PA1 | A1 | RR Encoder CHB |
 | PA2 | D1 | ESP32 TX |
 | PA3 | D0 | ESP32 RX |
+| PB8 | D15 | Motor Driver SLEEP |

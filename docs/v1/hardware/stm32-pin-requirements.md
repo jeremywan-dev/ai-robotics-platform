@@ -18,6 +18,8 @@
 - IN1
 - IN2
 
+### Sleep Mode
+- IN1
 ---
 
 ## Encoders
