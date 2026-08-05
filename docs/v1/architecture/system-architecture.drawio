@@ -22,7 +22,7 @@
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-24" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="Motor Driver&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2 × TB6612FNG)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="Motor Driver&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2 × DRV8833)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="740" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="&amp;nbsp;TT Encoder Motors" vertex="1">
@@ -69,7 +69,7 @@
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-41" edge="1" parent="1" source="Be-Z3EnrbA_Hn8OIcAjx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Be-Z3EnrbA_Hn8OIcAjx-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="Motor Driver&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2 × TB6612FNG)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#994C00);" value="Motor Driver&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2 × DRV8833)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1360" y="240" as="geometry" />
         </mxCell>
         <mxCell id="Be-Z3EnrbA_Hn8OIcAjx-42" parent="1" style="text;whiteSpace=wrap;html=1;" value="Power Distribution Architecture" vertex="1">

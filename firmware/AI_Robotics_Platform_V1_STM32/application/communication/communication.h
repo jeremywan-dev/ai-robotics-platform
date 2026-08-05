@@ -1,0 +1,7 @@
+#ifndef APPLICATION_COMMUNICATION_COMMUNICATION_H
+#define APPLICATION_COMMUNICATION_COMMUNICATION_H
+
+void Communication_Init(void);
+void Communication_Update(void);
+
+#endif /* APPLICATION_COMMUNICATION_COMMUNICATION_H */

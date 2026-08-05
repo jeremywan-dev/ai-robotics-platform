@@ -8,3 +8,10 @@
 
 4. Hardware Design
 
+   Hardware selection
+   STM32 PIN Requirements/Assignment
+   Modular Schematic Diagram
+   Firmware A\architecture Development
+   
+
+
