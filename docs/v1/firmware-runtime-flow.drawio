@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="firmware-runtime-flow" name="Firmware Runtime Flow">
+    <mxGraphModel dx="1204" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontColor=#1A1A1A;" value="&lt;b&gt;STM32 Firmware Runtime Flow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="35" width="570" x="300" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="loop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;align=center;verticalAlign=middle;" value="&lt;b&gt;while (1)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="160" x="505" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="communication" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#2E6295;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Communication&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Communication_Update()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="50" y="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="robot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#2E6295;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Robot&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Robot_SetMotion(direction, speed)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="445" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="control" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#2E6295;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Control&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Control_SetTargetWheelSpeeds(...)&lt;br&gt;Control_Update()&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="235" x="840" y="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sensor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#2E6295;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Sensor&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Sensor_Update()&lt;br&gt;Sensor_GetWheelSpeeds(...)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="90" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="motor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#2E6295;fontColor=#FFFFFF;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Motor&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Motor_SetWheelOutputs(...)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="840" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-periodic" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#1A1A1A;" value="&lt;b&gt;Solid blue:&lt;/b&gt; periodic calls" vertex="1">
+          <mxGeometry height="24" width="210" x="100" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-event" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#1A1A1A;" value="&lt;b&gt;Dashed orange:&lt;/b&gt; event-driven calls" vertex="1">
+          <mxGeometry height="24" width="245" x="432.5" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-data" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#1A1A1A;" value="&lt;b&gt;Dashed green:&lt;/b&gt; data/API relationship" vertex="1">
+          <mxGeometry height="24" width="280" x="800" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-communication" edge="1" parent="1" source="loop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2E6295;fontColor=#1A1A1A;labelBackgroundColor=#FFFFFF;" target="communication" value="1. periodic: Communication_Update()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="communication-sensor" edge="1" parent="1" source="loop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2E6295;fontColor=#1A1A1A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sensor" value="4. periodic: Sensor_Update()">
+          <mxGeometry relative="1" x="-0.2941" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="585" y="190" />
+              <mxPoint x="200" y="190" />
+              <mxPoint x="200" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sensor-control-periodic" edge="1" parent="1" source="loop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2E6295;fontColor=#1A1A1A;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="control" value="6. periodic: Control_Update()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="120" />
+              <mxPoint x="800" y="120" />
+              <mxPoint x="800" y="117.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication-robot" edge="1" parent="1" source="communication" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#D07900;fontColor=#7A4300;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="robot" value="2. Robot_SetMotion&lt;div&gt;(direction, speed)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1568" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="145" y="310" />
+              <mxPoint x="445" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="robot-control" edge="1" parent="1" source="robot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#D07900;fontColor=#7A4300;labelBackgroundColor=#FFFFFF;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="control" value="3. Control_SetTargetWheelSpeeds(front_left,&amp;nbsp;&lt;div&gt;front_right, rear_left, rear_right)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.2293" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sensor-store" edge="1" parent="1" source="sensor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=4 4;strokeWidth=2;strokeColor=#4F8A5B;fontColor=#2D5B36;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;innerLoopWaypoints=1;" target="sensor" value="5. stores latest measured&amp;nbsp;&lt;div&gt;wheel speeds&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.2727" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="40" y="480" />
+              <mxPoint x="40" y="560" />
+              <mxPoint x="200" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sensor-control-data" edge="1" parent="1" source="control" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=4 4;strokeWidth=2;strokeColor=#4F8A5B;fontColor=#2D5B36;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sensor" value="7. Sensor_&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(45, 91, 54), rgb(141, 180, 148));&quot;&gt;GetWheelSpeeds(...)&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.6289" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="957.5" y="340" />
+              <mxPoint x="680" y="340" />
+              <mxPoint x="680" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="control-motor" edge="1" parent="1" source="control" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=4 4;strokeWidth=2;strokeColor=#4F8A5B;fontColor=#2D5B36;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="motor" value="8. Motor_SetWheelOutputs(front_left,&amp;nbsp;&lt;div&gt;front_right, rear_left, rear_right)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1128" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1016.3" y="410" />
+              <mxPoint x="740" y="410" />
+              <mxPoint x="740" y="480" />
+            </Array>
+            <mxPoint x="1070" y="130" as="sourcePoint" />
+            <mxPoint x="1085" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
