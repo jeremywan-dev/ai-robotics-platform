@@ -57,11 +57,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="communication-robot" edge="1" parent="1" source="communication" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#D07900;fontColor=#7A4300;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="robot" value="2. Robot_SetMotion&lt;div&gt;(direction, speed)&lt;/div&gt;">
-          <mxGeometry relative="1" x="0.1568" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry relative="1" x="0.2994" as="geometry">
+            <mxPoint x="1" as="offset" />
             <Array as="points">
-              <mxPoint x="145" y="310" />
-              <mxPoint x="445" y="310" />
+              <mxPoint x="145" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>

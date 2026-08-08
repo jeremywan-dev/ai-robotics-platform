@@ -1,0 +1,6 @@
+../application/communication/communication.c:20:6:Communication_Init	1
+../application/communication/communication.c:29:6:Communication_Update	3
+../application/communication/communication.c:48:6:HAL_UART_RxCpltCallback	9
+../application/communication/communication.c:91:6:HAL_UART_ErrorCallback	3
+../application/communication/communication.c:106:16:Communication_ParseCommand	16
+../application/communication/communication.c:178:13:Communication_StartReceive	2

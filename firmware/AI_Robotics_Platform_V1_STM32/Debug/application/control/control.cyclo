@@ -1,0 +1,6 @@
+../application/control/control.c:32:16:Control_ReadMeasuredWheelSpeeds	1
+../application/control/control.c:41:14:Control_CalculatePid	1
+../application/control/control.c:57:16:Control_ClampMotorOutput	3
+../application/control/control.c:72:6:Control_Init	1
+../application/control/control.c:81:6:Control_SetTargetWheelSpeeds	1
+../application/control/control.c:93:6:Control_Update	2

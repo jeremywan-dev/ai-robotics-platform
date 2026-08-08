@@ -5,13 +5,21 @@
 2. Requirements
 
 3. System Architecture
+    Control Flow Diagram
+    Power Distribution Diagram
 
 4. Hardware Design
 
    Hardware selection
    STM32 PIN Requirements/Assignment
    Modular Schematic Diagram
-   Firmware A\architecture Development
-   
+
+5. Firmware Design
+    Firmware Component Diagram
+    API Design
+    Firmware Runtime Flow Diagram
+
+
+
 
 

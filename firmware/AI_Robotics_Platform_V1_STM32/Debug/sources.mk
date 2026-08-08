@@ -26,4 +26,9 @@ Core/Src \
 Core/Startup \
 Drivers/BSP/STM32F4xx-Nucleo \
 Drivers/STM32F4xx_HAL_Driver/Src \
+application/communication \
+application/control \
+application/motor \
+application/robot \
+application/sensor \
 

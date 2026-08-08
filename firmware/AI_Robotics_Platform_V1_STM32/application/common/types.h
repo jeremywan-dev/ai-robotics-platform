@@ -1,0 +1,15 @@
+#ifndef APPLICATION_COMMON_TYPES_H
+#define APPLICATION_COMMON_TYPES_H
+
+#include <stdint.h>
+
+typedef enum
+{
+    DIRECTION_STOP = 0,
+    DIRECTION_FORWARD,
+    DIRECTION_BACKWARD,
+    DIRECTION_LEFT,
+    DIRECTION_RIGHT
+} Direction;
+
+#endif /* APPLICATION_COMMON_TYPES_H */

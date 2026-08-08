@@ -1,0 +1,6 @@
+../application/control/control.c:32:16:Control_ReadMeasuredWheelSpeeds	16	static
+../application/control/control.c:41:14:Control_CalculatePid	32	static
+../application/control/control.c:57:16:Control_ClampMotorOutput	16	static
+../application/control/control.c:72:6:Control_Init	48	static
+../application/control/control.c:81:6:Control_SetTargetWheelSpeeds	16	static
+../application/control/control.c:93:6:Control_Update	24	static
